@@ -1,0 +1,7 @@
+a=int(input("Enter the value of A: "))
+b=int(input("Enter the value of B: "))
+c=int(input("Enter the value of C: "))
+if a+b>c and b+c>a and c+a>b:
+    print("The Triangle is Vaild")
+else:
+    print("The Triangle is Not Vaild")
